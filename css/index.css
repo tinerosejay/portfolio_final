@@ -1,0 +1,145 @@
+
+/* Navbar */
+
+.container{
+    font-size: px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+.navbar {
+    color: maroon;
+}
+.navbar .nav-link {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+   
+}
+.navbar .nav-link:hover {
+    color: white;
+}
+.navbar-toggler{
+    color: rgb(204, 204, 204);
+}
+.navbar-toggler-icon {
+    color: rgb(204, 204, 204);
+    padding-top: 15%;
+    font-size: 23px;
+}
+
+/* End Navbar */
+
+/* Home Section */
+.section-home{
+   width: 100vw;
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-sizing: border-box;
+   overflow: hidden;
+   min-height: 100vh;
+}
+
+/* End Home Section */
+
+/* About Us Section */
+.about-content img:hover{
+    transform: scale(1.03);
+    transition: .4s;
+    
+}
+
+/* End About Us Section */
+
+/* Activities Section */
+.section-activities{
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/* End Activities Section */
+
+/* Gallery Section */
+*{
+box-sizing: border-box;
+font-family: 'poppins', sans-serif;
+}
+.title{
+width: 100%;
+text-align: center;
+background-color: rgb(243, 243, 243);
+width: 90%;
+margin: 0 auto 20px auto;
+}
+h1{
+font-weight: normal;
+font-size: 35px;
+position: relative;
+margin: 40px 0;
+color: antiquewhite;
+}
+h1::before{
+content: '';
+position: absolute;
+width: 100px;
+height: 6px;
+background-color: crimson;
+bottom: 1px;
+left: 50%;
+transform: translateX(-50%);
+animation: animate 4s linear infinite;
+}
+@keyframes animate{
+0%{
+    width: 100px;
+}
+50%{
+    width: 200px;
+}
+100%{
+    width: 100px;
+}
+}
+.container .row  img{
+border-radius: 10px;
+height: 400px;
+margin: 10px;
+transform: translateX(0px);
+transition: 1.1s all;
+cursor: pointer;
+}
+.container:hover{
+box-shadow: 8px 8px 50px 20px blue;
+transform: translateX(20px);
+}
+
+
+
+
+/* End Gallery Section */
+
+/* Contact Us Section */
+.section-contactus{
+   
+    align-items: center;
+    text-align: center;
+    color: aqua;
+}
+/* Contact Us Section */
+
+
+.section-home{
+    background-image: url(../img/back1.jpg);
+}
+.section-aboutus{
+    background-image: url(../img/bg3.jpg);
+}
+.section-activities{
+    background-image: url(../img/bg4.jpg);
+}
+.section-gallery{
+    background-image: url(..//img/bg5.jpg);
+}
+.section-contactus{
+    background-image: url(../img/bg7.jpg);
+}
